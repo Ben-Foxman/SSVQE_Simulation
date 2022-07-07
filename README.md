@@ -8,5 +8,5 @@ time. To learn about how SSVQE works, see the paper here: https://arxiv.org/abs/
 ## How to Use This Notebook
 - This notebook is a user-friendly way to run the SSVQE algorithm with parameters that can be specified in the 
 modifiable parameters area of section 1. 
-- Information about running experiments are written to SSVQE.log, inclduind any warnings/errors. 
+- Information about running experiments are written to SSVQE.log, inclduing any warnings/errors. 
 - Results of completed experiments are stored in VQE_results.df, which tracks all completed experiments. This a pickled dataframe, call ```pandas.load_pickle("SSVQE_results.df")``` to view. Please do not modify this file. 
